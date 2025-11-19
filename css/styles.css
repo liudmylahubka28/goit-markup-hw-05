@@ -595,7 +595,7 @@ color: rgba(46, 47, 66, 0.4);
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 }
-.checkbox-input:checked + .label-agreement .agreement-checkbox {
+.checkbox:checked + .label-agreement .agreement-checkbox {
   border-radius: 2px;
   background-color: #404bbf;
   border: none;
