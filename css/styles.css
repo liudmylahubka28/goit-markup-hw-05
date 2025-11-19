@@ -478,8 +478,8 @@ margin-right: 120px;
     border: none; 
 }
 
-.close-modal-button:hover .icon-close,
-.close-modal-button:focus .icon-close{
+.close-modal-button:hover .close-modal-icon,
+.close-modal-button:focus .close-modal-icon {
     fill: #ffffff;
 }
 .close-modal-icon {
@@ -588,7 +588,7 @@ color: rgba(46, 47, 66, 0.4);
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 }
-input[type='checkbox']:checked .label-agreement .agreement-checkbox {
+.input[type='checkbox']:checked .label-agreement .agreement-checkbox {
   border-radius: 2px;
   background-color: #404bbf;
   border: none;
