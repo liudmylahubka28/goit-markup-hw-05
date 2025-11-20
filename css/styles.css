@@ -559,12 +559,7 @@ border-color: #4D5AE5;
 .text-comment::placeholder {
 color: rgba(46, 47, 66, 0.4);
 }
-.accent {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-}
+
 .agreement {
     margin-bottom: 24px;
 }
@@ -595,6 +590,10 @@ color: rgba(46, 47, 66, 0.4);
     text-decoration-skip-ink: none;
     color: #4d5ae5;
     margin-left: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    
 }
 input[type='checkbox']:checked + .label-agreement > .agreement-checkbox {
   border-radius: 2px;
@@ -628,7 +627,7 @@ input[type='checkbox']:checked + .label-agreement > .agreement-checkbox {
     margin-right: 80px;
 }
 .icon-send {
-    margin-left: 8px;
+    margin-left: 16px;
     fill: #ffffff;
 }
 .footer-input {
